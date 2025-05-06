@@ -14,3 +14,6 @@ ggplot(mtcars, aes(x=as.factor(cyl), y=mpg))+geom_boxplot()+xlab("number of cyli
 
 # Correlation between mpg and quarter mile time
 ggplot(mtcars, aes(x=mpg,y=qsec))+geom_point()
+
+# Correlation between displacement and quarter mile time
+ggplot(mtcars, aes(x=hp,y=qsec))+geom_point()
