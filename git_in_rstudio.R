@@ -17,3 +17,6 @@ ggplot(mtcars, aes(x=hp,y=qsec))+geom_point()
 
 # Correlation between hp and mpg
 ggplot(mtcars, aes(x=hp,y=mpg))+geom_point()
+
+# Correlation between displacement and hp
+ggplot(mtcars, aes(x=disp,y=hp))+geom_point()
